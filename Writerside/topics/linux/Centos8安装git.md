@@ -1,0 +1,4 @@
+```bash
+yum install git
+```
+

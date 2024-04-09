@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                  name="instanceName" start-page="README.md">
+
+    <toc-element topic="README.md"/>
+    <toc-element toc-title="SpringReactive">
+        <toc-element topic="函数式编程.md"/>
+        <toc-element topic="ReactiveStreams.md"/>
+    </toc-element>
+    <toc-element toc-title="LasoCompany">
+        <toc-element topic="Genebox支付微服务.md"/>
+        <toc-element topic="Laso Maven Archetype.md"/>
+        <toc-element topic="天猫订单数据同步.md"/>
+        <toc-element toc-title="芯片管理后台">
+            <toc-element topic="LASO芯片后台.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="2023">
+        <toc-element toc-title="2023-02">
+            <toc-element topic="2023-02-14.md"/>
+        </toc-element>
+        <toc-element toc-title="2023-01">
+            <toc-element topic="2023-01-03.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="docker">
+        <toc-element topic="Docker.md"/>
+        <toc-element topic="mongo.md"/>
+    </toc-element>
+    <toc-element toc-title="redis">
+        <toc-element topic="Redis基础.md"/>
+    </toc-element>
+    <toc-element toc-title="xxl-job">
+        <toc-element topic="xxl-job.md"/>
+    </toc-element>
+    <toc-element toc-title="plan">
+        <toc-element topic="张勤忠简历.md"/>
+        <toc-element toc-title="马克思主义基本原理概论">
+            <toc-element toc-title="绪论马克思主义是关于工人阶级和人类解放的科学">
+                <toc-element toc-title="马克思主义科学性与革命性的统一">
+                    <toc-element topic="马克思主义的理论特征.md"/>
+                    <toc-element topic="马克思主义的科学内涵.md"/>
+                    <toc-element topic="马克思主义的理论品质.md"/>
+                </toc-element>
+                <toc-element toc-title="马克思主义的产生和发展">
+                    <toc-element topic="马克思主义是时代的产物.md"/>
+                    <toc-element topic="马克思主义在实践中不断发展.md"/>
+                    <toc-element topic="马克思主义对人类文明成果的继承与创新.md"/>
+                </toc-element>
+                <toc-element toc-title="运用和发展马克思主义">
+                    <toc-element topic="马克思主义是行动的指南.md"/>
+                    <toc-element topic="在新的历史条件下丰富和发展马克思主义.md"/>
+                    <toc-element topic="学习马克思主义的目的和根本方法.md"/>
+                </toc-element>
+            </toc-element>
+            <toc-element toc-title="第一章物质世界及其发展规律">
+                <toc-element toc-title="物质世界和实践">
+                    <toc-element topic="物质世界的客观存在.md"/>
+                </toc-element>
+            </toc-element>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="markdown">
+        <toc-element topic="Markdown用法.md"/>
+    </toc-element>
+    <toc-element toc-title="maven">
+        <toc-element topic="LasoMavenArchetype.md"/>
+        <toc-element topic="MavenArchetype.md"/>
+    </toc-element>
+    <toc-element toc-title="k8s">
+        <toc-element topic="K8s基础.md"/>
+        <toc-element topic="飞鹤k8s.md"/>
+    </toc-element>
+    <toc-element toc-title="百度网盘">
+        <toc-element topic="百度网盘解析.md"/>
+    </toc-element>
+    <toc-element toc-title="DNF Game">
+        <toc-element topic="电脑配置清单.md"/>
+        <toc-element topic="节日礼包.md"/>
+        <toc-element topic="名望计算.md"/>
+        <toc-element topic="DNF 攻速流装备搭配.md"/>
+        <toc-element topic="DNF金币流水统计.md"/>
+        <toc-element topic="年套.md"/>
+        <toc-element topic="次元回廊.md"/>
+        <toc-element topic="DNF代练.md"/>
+        <toc-element topic="增幅技巧.md"/>
+    </toc-element>
+    <toc-element toc-title="postman">
+        <toc-element topic="Postman拦截器.md"/>
+    </toc-element>
+    <toc-element toc-title="JVM">
+        <toc-element topic="概述.md"/>
+        <toc-element topic="GarbageCollection.md"/>
+        <toc-element topic="Jenv.md"/>
+        <toc-element topic="自动内存管理.md"/>
+        <toc-element topic="jvm排查分析.md"/>
+        <toc-element topic="java技术体系.md"/>
+    </toc-element>
+    <toc-element toc-title="mathematics">
+        <toc-element topic="进制转换.md"/>
+    </toc-element>
+    <toc-element toc-title="others">
+        <toc-element topic="mee.md"/>
+    </toc-element>
+    <toc-element toc-title="document">
+        <toc-element topic="信息开发部部门规范.md"/>
+    </toc-element>
+    <toc-element toc-title="GoogleInternet">
+        <toc-element topic="小恐龙.md"/>
+    </toc-element>
+    <toc-element toc-title="Netty">
+        <toc-element topic="Netty简介.md"/>
+    </toc-element>
+    <toc-element toc-title="ELK">
+        <toc-element topic="ELK 安装 version 8.4.md"/>
+        <toc-element toc-title="Elasticsearch">
+            <toc-element topic="Elasticsearch简介.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="ConcurrentProgramming">
+        <toc-element topic="缓存行伪共享.md"/>
+        <toc-element topic="锁.md"/>
+        <toc-element topic="final.md"/>
+        <toc-element topic="ThreadLocal.md"/>
+        <toc-element topic="Volatile.md"/>
+        <toc-element topic="线程池.md"/>
+        <toc-element topic="RandomAccess.md"/>
+        <toc-element topic="Synchronize.md"/>
+    </toc-element>
+    <toc-element toc-title="DataStructure">
+        <toc-element topic="递归思维：反转单链表.md"/>
+        <toc-element topic="tree.md"/>
+        <toc-element topic="算法分析.md"/>
+        <toc-element topic="数据结构和算法概述.md"/>
+        <toc-element topic="什么是算法.md"/>
+    </toc-element>
+    <toc-element toc-title="飞鹤">
+        <toc-element topic="订单维度导出排查.md"/>
+        <toc-element topic="飞鹤规范相关.md"/>
+        <toc-element topic="Sonarqube.md"/>
+        <toc-element topic="三方售后单同步消息.md"/>
+        <toc-element topic="升级Dubbo版本.md"/>
+        <toc-element topic="OMS查询订单操作日志.md"/>
+        <toc-element topic="订单，商品维度导出订单.md"/>
+        <toc-element topic="分销端.md"/>
+        <toc-element topic="HTTP订单查询接口.md"/>
+        <toc-element topic="独立导单.md"/>
+        <toc-element topic="抖音新建商品测试.md"/>
+        <toc-element topic="飞鹤-微服务引擎MSE-微服务网关配置.md"/>
+        <toc-element topic="分销商礼券部分退.md"/>
+        <toc-element topic="有谦发票抬头.md"/>
+        <toc-element topic="MybatisGenerate插件使用指南.md"/>
+        <toc-element topic="订单详情-.md"/>
+        <toc-element topic="售后单数据订正.md"/>
+        <toc-element topic="OMS订单列表，订单详情.md"/>
+        <toc-element toc-title="项目迭代">
+            <toc-element topic="2023年0209计划.md"/>
+            <toc-element topic="2023年0727计划.md"/>
+            <toc-element topic="2023年0228计划.md"/>
+            <toc-element topic="2022年1219计划.md"/>
+            <toc-element topic="2023年0628计划.md"/>
+            <toc-element topic="2023年1014计划.md"/>
+            <toc-element topic="2023年0330计划.md"/>
+            <toc-element topic="2022年1115计划.md"/>
+            <toc-element topic="2023年0309计划.md"/>
+            <toc-element topic="2023年0515计划.md"/>
+            <toc-element topic="2023年0714计划.md"/>
+            <toc-element topic="2023年0410计划.md"/>
+            <toc-element topic="2023年0426计划.md"/>
+            <toc-element topic="2023年0922计划.md"/>
+            <toc-element topic="2023年0817计划.md"/>
+        </toc-element>
+        <toc-element toc-title="返讲学习">
+            <toc-element topic="履约-缺货订单.md"/>
+            <toc-element topic="履约-收发货单.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="mac">
+        <toc-element topic="Mac Proxy.md"/>
+        <toc-element topic="Mac软件.md"/>
+        <toc-element topic="mac本地连接控制台数据库.md"/>
+    </toc-element>
+    <toc-element toc-title="json">
+        <toc-element topic="解析json对象出现$ref: &quot;$.list[0]&quot;的解决办法.md"/>
+    </toc-element>
+    <toc-element toc-title="IDEA">
+        <toc-element topic="IDEA插件开发.md"/>
+        <toc-element topic="IDEA插件开发 编译异常.md"/>
+    </toc-element>
+    <toc-element toc-title="linux">
+        <toc-element topic="Cat.md"/>
+        <toc-element topic="排查jar包内存.md"/>
+        <toc-element topic="Centos8 后台运行.md"/>
+        <toc-element topic="设置虚拟机命令行模式运行.md"/>
+        <toc-element topic="curl.md"/>
+        <toc-element topic="免密登录.md"/>
+        <toc-element topic="Centos8安装node.md"/>
+        <toc-element topic="scp.md"/>
+        <toc-element topic="Centos8安装git.md"/>
+        <toc-element topic="Centos8安装yarn.md"/>
+        <toc-element topic="CentOS 8 防火墙.md"/>
+        <toc-element topic="Hostname简介"/>
+    </toc-element>
+    <toc-element toc-title="MySql">
+        <toc-element topic="高性能MySQL.md"/>
+        <toc-element topic="MySQL架构.md"/>
+        <toc-element topic="Mysql查询优化.md"/>
+        <toc-element topic="MySQL事务.md"/>
+        <toc-element topic="Mysql命令.md"/>
+    </toc-element>
+    <toc-element toc-title="Spring-cloud-gateway">
+        <toc-element topic="Spring-cloud-gateway.md"/>
+    </toc-element>
+    <toc-element toc-title="movies">
+        <toc-element topic="Search.md"/>
+    </toc-element>
+    <toc-element toc-title="stress testing">
+        <toc-element topic="压力测试.md"/>
+    </toc-element>
+    <toc-element toc-title="DesignPattern">
+        <toc-element topic="模板模式.md"/>
+        <toc-element topic="策略模式.md"/>
+    </toc-element>
+    <toc-element toc-title="iphone">
+        <toc-element topic="小飞机.md"/>
+    </toc-element>
+    <toc-element toc-title="Chatgpt">
+        <toc-element topic="Chatgptkey.md"/>
+        <toc-element topic="美国地址.md"/>
+        <toc-element topic="Google cloud.md"/>
+        <toc-element topic="OSXChatgpt.md"/>
+        <toc-element topic="使用技巧-chatgpt分析本地文档.md"/>
+        <toc-element topic="sms.md"/>
+    </toc-element>
+    <toc-element toc-title="windows">
+        <toc-element topic="win10系统的idea的terminal终端对git出现中文乱码问题.md"/>
+        <toc-element topic="Web唤起本地应用程序.md"/>
+        <toc-element topic="windows7挂载linux目录.md"/>
+    </toc-element>
+    <toc-element toc-title="image_oss">
+        <toc-element toc-title="image_oss">
+            <toc-element topic="image_oss_README.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="JavaCollection">
+        <toc-element topic="LinkedList.md"/>
+        <toc-element topic="HashMap.md"/>
+        <toc-element topic="ArraysList.md"/>
+        <toc-element topic="一致性Hash.md"/>
+    </toc-element>
+    <toc-element toc-title="Git">
+        <toc-element topic="GIT stash.md"/>
+        <toc-element topic="Git rebase.md"/>
+        <toc-element topic="初始化git仓库.md"/>
+    </toc-element>
+    <toc-element toc-title="Working document">
+        <toc-element topic="SpringMee部署文档.md"/>
+        <toc-element topic="开发流程.md"/>
+    </toc-element>
+    <toc-element toc-title="Spring">
+        <toc-element topic="BeanDefinitionReader.md"/>
+        <toc-element topic="Spring bean的理解随笔.md"/>
+        <toc-element topic="Spring IoC之ClassPathXmlApplicationContext.md"/>
+        <toc-element topic="spring boot 推断main方法.md"/>
+        <toc-element topic="Spring.md"/>
+        <toc-element topic="Spring IoC图形总结.md"/>
+        <toc-element topic="spring-BeanFactory入门.md"/>
+    </toc-element>
+    <toc-element toc-title="咪叽咕哩咕">
+        <toc-element topic="企业微信.md"/>
+        <toc-element topic="腾讯云体验云服务器.md"/>
+        <toc-element topic="企业邮箱.md"/>
+    </toc-element>
+</instance-profile>
