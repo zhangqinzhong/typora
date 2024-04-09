@@ -226,6 +226,10 @@ mysql> select host ,user,authentication_string,plugin from user;
 3. authentication_string 加密后的密码
 4. plugin，mysql的加密方式
 
+如果你想要修改用户密码，你可以使用如下命令：
 
+```Bash
+SET PASSWORD FOR 'user'@'localhost' = PASSWORD('new_password')
+```
 
 
