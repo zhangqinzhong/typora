@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                  name="张勤忠的归档文件" start-page="README.md">
+                  name="Help Instance" start-page="README.md">
 
     <toc-element topic="README.md"/>
 

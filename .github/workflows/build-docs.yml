@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  INSTANCE: 'Writerside/hi'
-  ARTIFACT: 'webHelpHI2-all.zip'
+  INSTANCE: 'Writerside/in'
+  ARTIFACT: 'webHelpIN2-all.zip'
   DOCKER_VERSION: '241.16003'
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
           name: docs
           path: |
             artifacts/${{ env.ARTIFACT }}
-          retention-days: 7
+          retention-days: 3
   test:
     needs: build
     runs-on: ubuntu-latest
