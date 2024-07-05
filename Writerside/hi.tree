@@ -2,7 +2,6 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="hi" name="Help Instance"
-                 start-page="">
+<instance-profile id="hi" name="Help Instance" start-page="README.md">
 
 </instance-profile>

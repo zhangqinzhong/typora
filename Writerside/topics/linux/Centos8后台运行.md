@@ -1,3 +1,5 @@
+# Centos8后台运行
+
 ```bash
 nohup yarn install && yarn dev > chatgpt.log 2>&1 & 
 ```
