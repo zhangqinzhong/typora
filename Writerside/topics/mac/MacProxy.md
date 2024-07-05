@@ -1,4 +1,4 @@
-# Mac Proxy
+# MacProxy
 
 > 写一篇关于mac proxy port 的随机吧
 
