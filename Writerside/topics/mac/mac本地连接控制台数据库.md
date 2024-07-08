@@ -24,7 +24,7 @@ pwd
 
 # navicat新建连接
 
-<img src="/Users/zhangqinzhong/Documents/typora/mac/images//image-20230209170627716.png" alt="image-20230209170627716" style="zoom:50%;" />
+<img src="/Users/zhangqinzhong/Documents/typora/mac/images/image-20230209170627716.png" alt="image-20230209170627716" style="zoom:50%;" />
 
 ![image-20230209171019365](image-20230209171019365.png)
 

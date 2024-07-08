@@ -1,3 +1,5 @@
+# curl
+
 curl -H "Content-Type:application/json" -X POST -d '{"decryptList":[{"tid":"1936397919241533508"}]}' 'localhost:25000/tmall/oaid/decrypt'
 
 

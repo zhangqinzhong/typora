@@ -1,3 +1,5 @@
+# Dockerfile
+
 Dockerfile
 
 1、FROM
@@ -32,7 +34,7 @@ COPY [--chown=<user>:<group>] <源路径1>...  <目标路径>
 ```
 
 [–chown=:]：可选参数，用户改变复制到容器内文件的拥有者和属组。
-<源路径>：源文件或者源目录，这里可以是通配符表达式，其通配符规则要满足 Go 的 filepath.Match 规则，如：
+·<源路径>：源文件或者源目录，这里可以是通配符表达式，其通配符规则要满足 Go 的 filepath.Match 规则，如：·
 
 通配符
 COPY hom* /mydir/

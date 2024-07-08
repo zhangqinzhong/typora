@@ -45,7 +45,7 @@ tar -zxvf kibana-8.4.0-linux-x86_64.tar.gz -C ../
 
 ##### 创建用户 略 
 
-##### 我这里新建的用户叫 **parallels**
+##### 我这里新建的用户叫 **parallels** {id="parallels_1"}
 
 ```shell
 chown -R parallels:parallels elasticsearch-8.4.0/ kibana-8.4.0/
@@ -83,7 +83,7 @@ su - parallels
 ./bin/elasticsearch
 ```
 
-##### 此时elasticsearch会启动 并且在控制台输出内容，注意如下内容:
+##### 此时elasticsearch会启动 并且在控制台输出内容，注意如下内容: {id="elasticsearch_1"}
 
 ```
 ✅ Elasticsearch security features have been automatically configured!

@@ -8,7 +8,7 @@ Spring是于2003年兴起的一个轻量级的Java开源框架，由Rod Johnson�
 
 Spring框架是一个分层架构，它包含一系列的功能要素，并被分为大约20个模块，如图1-1所示。
 
-<img src="/Users/zhangqinzhong/Documents/typora/Spring/images/spring架构图.jpeg" alt="spring架构图" style="zoom:100%;" />
+<img src="../../images/Spring/images/spring架构图.jpeg" alt="spring架构图" style="zoom:100%;" />
 
 Spring官网中对IOC的定义。
 
@@ -195,7 +195,7 @@ BeanPostProcessor 实现AOP的基类
 1. postProcessBeforeInitialization
 2. postProcessAfterInitialization
 
-<img src="/Users/zhangqinzhong/Documents/typora/Spring/images/BeanFactory.png" alt="BeanFactory" style="zoom:50%;" />
+<img src="../../images/Spring/images/BeanFactory.png" alt="BeanFactory" style="zoom:50%;" />
 
 Environment 接口 继承PropertyResolver
 

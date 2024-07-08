@@ -1,3 +1,5 @@
+# mongo简介
+
 db.createUser({ user:'zhangqinzhong',pwd:'zhangqinzhong',roles:[ { role:'dbOwner', db: 'yapi'}]});
 
 db.createUser({ user:'admin',pwd:'zhangqinzhong',roles:[ { role:'userAdminAnyDatabase', db: 'admin'},"readWriteAnyDatabase"]});

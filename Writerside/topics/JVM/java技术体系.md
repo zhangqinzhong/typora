@@ -1,3 +1,5 @@
+# Java技术体系
+
 ## Java技术体系 
 
 ​		从广义上讲，Kotlin、Clojure、JRuby、Groovy等运行于Java虚拟机上的编程语言及其相关的程序都属于Java技术体系中的一员。如果仅从传统意义上来看，JCP官方[1]所定义的Java技术体系包括了以 下几个组成部分:
@@ -14,7 +16,7 @@
 
 * Java Card:支持Java小程序(Applets)运行在小内存设备(如智能卡)上的平台。
 
-* <img src="/Users/zhangqinzhong/Documents/typora/java虚拟机/image/java技术体系所包括的内容.png" alt="java技术体系所包括的内容" style="zoom:50%;" />
+* <img src="../../images/JVM/images/java技术体系所包括的内容.png" alt="java技术体系所包括的内容" style="zoom:50%;" />
 
   ​																图1-2 Java技术体系所包括的内容
 

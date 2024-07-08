@@ -77,6 +77,7 @@
         <toc-element topic="MacProxy.md"/>
         <toc-element topic="Mac软件.md"/>
         <toc-element topic="mac本地连接控制台数据库.md"/>
+        <toc-element topic="苹果地图macos.app,proxy问题.md"/>
     </toc-element>
     <toc-element toc-title="json">
         <toc-element topic="解析json对象出现$ref的问题.md"/>
@@ -100,6 +101,7 @@
         <toc-element topic="Hostname简介.md"/>
     </toc-element>
     <toc-element toc-title="MySql">
+        <toc-element topic="Mac启动Mysql.md"/>
         <toc-element topic="高性能MySQL.md"/>
         <toc-element topic="MySQL架构.md"/>
         <toc-element topic="Mysql查询优化.md"/>

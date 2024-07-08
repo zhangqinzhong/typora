@@ -1,4 +1,4 @@
-# 树
+# 数据结构-树简介
 
 > 树是一个有n个有限节点组成一个具有层次关系的集合，每个节点有0个或者多个子节点，没有父节点的节点称为根节点，也就是说除了根节点以外每个节点都有父节点，并且有且只有一个。
 >
@@ -6,7 +6,7 @@
 >
 > 甚至堆我们也可以把它看成是一棵树，树的这么多种类中，我们最常见的应该是二叉树了，下面我们来看一下他的结构。
 
-<img src="/Users/zhangqinzhong/Documents/typora/DataStructure/images/树.png" alt="树" style="zoom:50%;" />
+<img src="../../images/DataStructure/images/树.png" alt="树" style="zoom:50%;" />
 
 ### 树的定义
 
@@ -30,7 +30,7 @@
 18. **满二叉树：**除最后一层无任何子节点外，每一层上的所有结点都有两个子结点的二叉树。
 19. **哈夫曼树：**带权路径最短的二叉树称为哈夫曼树或最优二叉树；
 
-<img src="/Users/zhangqinzhong/Documents/typora/DataStructure/images/二叉树.png" alt="二叉树" style="zoom:50%;" />
+<img src="../../images/DataStructure/images/二叉树.png" alt="二叉树" style="zoom:50%;" />
 
 #### 节点类（java）
 
@@ -64,7 +64,7 @@ public void preOrder(TreeNode tree) {
 >
 > 访问顺序如下
 
-<img src="/Users/zhangqinzhong/Documents/typora/DataStructure/images/二叉树前序遍历.png" alt="前序遍历" style="zoom:50%;" />
+<img src="../../images/DataStructure/images/二叉树前序遍历.png" alt="前序遍历" style="zoom:50%;" />
 
 #### 递归输出
 
@@ -109,7 +109,7 @@ public static void preOrder(TreeNode tree) {
 >
 > 访问顺序如下
 
-<img src="/Users/zhangqinzhong/Documents/typora/DataStructure/images/二叉树中序遍历.png" alt="二叉树中序遍历" style="zoom:50%;" />
+<img src="../../images/DataStructure/images/二叉树中序遍历.png" alt="二叉树中序遍历" style="zoom:50%;" />
 
 #### 递归输出
 
@@ -150,7 +150,7 @@ public static void inOrderTraversal(TreeNode tree) {
 >
 > 访问顺序如下
 
-<img src="/Users/zhangqinzhong/Documents/typora/DataStructure/images/二叉树后序遍历.png" alt="二叉树后序遍历" style="zoom:50%;" />
+<img src="../../images/DataStructure/images/二叉树后序遍历.png" alt="二叉树后序遍历" style="zoom:50%;" />
 
 #### 递归输出
 
@@ -274,7 +274,8 @@ public static List<List<Integer>> levelOrder(TreeNode tree) {
     return list;
 }
 
-private static void bfs(TreeNode tree, int level, List<List<Integer>> list) {
+private static void bfs(TreeNode tree, int level, 
+    List<List<Integer>> list) {
     if (tree == null)
         return;
     if (level >= list.size()) {
