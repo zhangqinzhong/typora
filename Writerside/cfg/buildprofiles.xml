@@ -5,10 +5,10 @@
     <variables>
         <web-root>https://zhangqinzhong.com/typora</web-root>
         <download-page>https://zhangqinzhong.com/typora</download-page>
-        <download-title>Index</download-title>
+        <download-title>INDEX</download-title>
         <showDownloadButton>true</showDownloadButton>
         <primary-color>strawberry</primary-color>
-        <header-logo>electrocardiogram-svgrepo-com.svg</header-logo>
+        <header-logo>../images/electrocardiogram-svgrepo-com.svg</header-logo>
         <custom-favicons>https://www.jetbrains.com/icon-512.png</custom-favicons>
     </variables>
 
@@ -29,14 +29,12 @@
     </footer>
 
     <build-profile instance="in">
-        <sitemap priority="0.35" change-frequency="monthly"/>
         <variables>
-            <noindex-content>true</noindex-content>
+            <header-logo>../images/electrocardiogram-svgrepo-com.svg</header-logo>
+            <noindex-content>false</noindex-content>
             <product-web-url>https://zhangqinzhong.com/typora</product-web-url>
-            <og-twitter>@onwriterside</og-twitter>
-            <og-image>https://resources.jetbrains.com/storage/products/writerside/img/meta/preview.png</og-image>
-            <images-prefix-override>https://resources.jetbrains.com/help/img/writerside/</images-prefix-override>
         </variables>
+        <sitemap change-frequency="monthly" priority="0.35"/>
     </build-profile>
 
 </buildprofiles>

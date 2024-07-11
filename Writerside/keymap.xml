@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+    <!-- 定义常规的按键映射 -->
+    <mapping>
+        <key>Ctrl</key>
+        <action>control_pressed</action>
+    </mapping>
+    <mapping>
+        <key>Shift</key>
+        <action>shift_pressed</action>
+    </mapping>
+    <mapping>
+        <key>Alt</key>
+        <action>alt_pressed</action>
+    </mapping>
+
+    <!-- 定义特定的组合键 -->
+    <shortcut>
+        <key>Ctrl</key>
+        <key>Shift</key>
+        <key>X</key>
+        <action>cut_selected_text</action>
+    </shortcut>
+    <shortcut>
+        <key>Ctrl</key>
+        <key>C</key>
+        <action>copy_selected_text</action>
+    </shortcut>
+    <shortcut>
+        <key>Ctrl</key>
+        <key>V</key>
+        <action>paste_clipboard_content</action>
+    </shortcut>
+</keymap>
