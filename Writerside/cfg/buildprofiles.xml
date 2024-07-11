@@ -9,7 +9,7 @@
         <showDownloadButton>true</showDownloadButton>
         <primary-color>strawberry</primary-color>
         <header-logo>../images/electrocardiogram-svgrepo-com.svg</header-logo>
-        <custom-favicons>https://www.jetbrains.com/icon-512.png</custom-favicons>
+        <custom-favicons>../images/electrocardiogram-svgrepo-com.svg</custom-favicons>
     </variables>
 
     <shortcuts>
