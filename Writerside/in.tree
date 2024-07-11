@@ -150,4 +150,7 @@
     <toc-element toc-title="阿里云组件">
         <toc-element topic="阿里云组件合集.md"/>
     </toc-element>
+    <toc-element toc-title="mybatis">
+        <toc-element topic="Mybatis插入数据获取ID的问题.md"/>
+    </toc-element>
 </instance-profile>
