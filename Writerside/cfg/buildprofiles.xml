@@ -8,6 +8,7 @@
         <download-title>Index</download-title>
         <showDownloadButton>true</showDownloadButton>
         <primary-color>strawberry</primary-color>
+        <header-logo>electrocardiogram-svgrepo-com.svg</header-logo>
         <custom-favicons>https://www.jetbrains.com/icon-512.png</custom-favicons>
     </variables>
 
@@ -28,6 +29,7 @@
     </footer>
 
     <build-profile instance="in">
+        <sitemap priority="0.35" change-frequency="monthly"/>
         <variables>
             <noindex-content>true</noindex-content>
             <product-web-url>https://zhangqinzhong.com/typora</product-web-url>
