@@ -2,10 +2,38 @@
 <buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <variables></variables>
+    <variables>
+        <web-root>https://zhangqinzhong.com/typora</web-root>
+        <download-page>https://zhangqinzhong.com/typora</download-page>
+        <download-title>Index</download-title>
+        <showDownloadButton>true</showDownloadButton>
+        <primary-color>strawberry</primary-color>
+        <custom-favicons>https://www.jetbrains.com/icon-512.png</custom-favicons>
+    </variables>
+
+    <shortcuts>
+        <src>keymap.xml</src>
+        <layout name="Windows" display-name="Windows"/>
+        <layout name="macOS" display-name="macOS"/>
+        <layout name="GNOME" display-name="Linux"/>
+    </shortcuts>
+
+    <footer>
+        <social type="blog" href="https://zhangqinzhong.com/">Writerside Blog</social>
+
+        <link href="https://github.com/zhangqinzhong/typora/issues">Issue tracker</link>
+        <link href="mailto:healer1176964150@163.com">Contact us</link>
+
+        <copyright>2000 JetBrains s.r.o.</copyright>
+    </footer>
+
     <build-profile instance="in">
         <variables>
             <noindex-content>true</noindex-content>
+            <product-web-url>https://zhangqinzhong.com/typora</product-web-url>
+            <og-twitter>@onwriterside</og-twitter>
+            <og-image>https://resources.jetbrains.com/storage/products/writerside/img/meta/preview.png</og-image>
+            <images-prefix-override>https://resources.jetbrains.com/help/img/writerside/</images-prefix-override>
         </variables>
     </build-profile>
 
