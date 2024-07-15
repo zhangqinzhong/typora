@@ -8,7 +8,7 @@
 操作系统
 Alibaba Cloud Linux 3.2104 LTS 64位
 
-## 步骤一：安装MySQL
+## 步骤一：安装MySQL {id="mysql_1"}
 
 1、运行以下命令，更新YUM源。
 ```Bash
@@ -32,7 +32,7 @@ mysql -V
 mysql  Ver 8.0.36 for Linux on x86_64 (MySQL Community Server - GPL)
 ```
 
-## 步骤二：配置MySQL
+## 步骤二：配置MySQL {id="mysql_2"}
 
 1、运行以下命令，启动MySQL服务。
 
@@ -155,11 +155,11 @@ Success.
 All done!
 ```
 
-## 步骤三：远程访问MySQL数据库
+## 步骤三：远程访问MySQL数据库 {id="mysql_3"}
 1. 为ECS实例所属的安全组入方向放行MySQL所需的端口号。 MySQL默认占用的端口号为3306。您需要在ECS实例所使用的安全组入方向添加规则并放行3306端口。具体步骤，请参见添加安全组规则。 在阿里云ECS服务器控制台设置安全组开放Mysql默认的3306端口
 ![img.png](../../images/MySql/images/img.png)
 
-![img_1.png](../../images/MySql/images/img_1.png)
+![img_1.png](../../images/MySql/images/Alibaba ECS 安装Mysql-1.png)
 
 2. 在ECS实例上，创建远程登录MySQL的账号。 运行以下命令后，输入root用户的密码登录MySQL。
 ```Bash
@@ -229,7 +229,47 @@ mysql> select host ,user,authentication_string,plugin from user;
 如果你想要修改用户密码，你可以使用如下命令：
 
 ```Bash
-SET PASSWORD FOR 'user'@'localhost' = PASSWORD('new_password')
+# 表示修改用户名为xxx的密码为password （想修改支持任何主机连接就把 localhost 改为%）
+alter user 'xxx'@'localhost' identified by 'password'; 
 ```
 
+修改完成后还是和上面创建的例子一样。需要刷新权限。
+```Bash
+#为xxx用户授权可以访问所有数据库，所有表。
+grant all privileges on *.* to 'xxx'@'%'; 
+
+#刷新权限。
+flush privileges; 
+
+# 执行以下命令，退出数据库。
+exit
+```
+
+## 卸载Mysql
+
+```Bash
+# 搜索当前主机上存在的Mysql
+rpm -qa | grep mysql
+```
+
+使用`rpm -ev` 命令卸载上面搜索到的所有Mysql 比如：
+```Bash
+rpm -ev mysql-community-libs-5.7.44-1.e17.x86_64
+```
+
+如果卸载报错，出现`error: Failed dependencies:` 存在依赖关系。
+```Bash
+# 使用rpm -ev xxx --nodeps 排除依赖关系
+rpm -ev mysql-community-libs-5.7.44-1.e17.x86_64 --nodeps
+```
+
+还是不行的话 使用
+```Bash
+yum remove mysql*
+```
+
+使用`find / -name mysql`查询所有mysql存在的内容
+将查询到的内容 使用`rm -rf xxx`逐条全部删除。
+
+最后使用`find / -name mysql` 以及 `rpm -qa | grep mysql` 搜索不到任何文件即可。
 

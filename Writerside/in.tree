@@ -110,7 +110,7 @@
         <toc-element topic="Mysql查询优化.md"/>
         <toc-element topic="MySQL事务.md"/>
         <toc-element topic="Mysql命令.md"/>
-        <toc-element topic="Alibaba ECS 安装Mysql.md"/>
+        <toc-element topic="AlibabaECS安装Mysql.md"/>
     </toc-element>
     <toc-element toc-title="Spring-cloud-gateway">
         <toc-element topic="Spring-cloud-gateway.md"/>
