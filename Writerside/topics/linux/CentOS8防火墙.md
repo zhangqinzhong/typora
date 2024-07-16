@@ -1,4 +1,6 @@
-# Centos8
+# Centos8防火墙
+
+<snippet id="防火墙">
 
 #### 查看防火墙状态
 
@@ -33,6 +35,7 @@ firewall-cmd --permanent --remove-port=80/tcp
 firewall-cmd --list-ports 
 ```
 
+</snippet>
 
 切换到root用户
 

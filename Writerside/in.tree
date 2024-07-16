@@ -100,7 +100,7 @@
         <toc-element topic="scp.md"/>
         <toc-element topic="Centos8安装git.md"/>
         <toc-element topic="Centos8安装yarn.md"/>
-        <toc-element topic="CentOS 8 防火墙.md"/>
+        <toc-element topic="CentOS8防火墙.md"/>
         <toc-element topic="Hostname简介.md"/>
     </toc-element>
     <toc-element toc-title="MySql">
@@ -152,5 +152,8 @@
     </toc-element>
     <toc-element toc-title="mybatis">
         <toc-element topic="Mybatis插入数据获取ID的问题.md"/>
+    </toc-element>
+    <toc-element toc-title="nginx">
+        <toc-element topic="阿里云服务器安装nginx.md"/>
     </toc-element>
 </instance-profile>
