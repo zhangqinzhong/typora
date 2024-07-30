@@ -157,9 +157,9 @@ All done!
 
 ## 步骤三：远程访问MySQL数据库 {id="mysql_3"}
 1. 为ECS实例所属的安全组入方向放行MySQL所需的端口号。 MySQL默认占用的端口号为3306。您需要在ECS实例所使用的安全组入方向添加规则并放行3306端口。具体步骤，请参见添加安全组规则。 在阿里云ECS服务器控制台设置安全组开放Mysql默认的3306端口
-![img.png](../../images/MySql/images/img.png)
+![img.png](img.png)
 
-![img_1.png](../../images/MySql/images/Alibaba ECS 安装Mysql-1.png)
+![img_1.png](Alibaba ECS 安装Mysql-1.png)
 
 2. 在ECS实例上，创建远程登录MySQL的账号。 运行以下命令后，输入root用户的密码登录MySQL。
 ```Bash

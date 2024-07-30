@@ -195,7 +195,7 @@ BeanPostProcessor 实现AOP的基类
 1. postProcessBeforeInitialization
 2. postProcessAfterInitialization
 
-<img src="../../images/Spring/images/BeanFactory.png" alt="BeanFactory" style="zoom:50%;" />
+<img src="BeanFactory.png" alt="BeanFactory" style="zoom:50%;" />
 
 Environment 接口 继承PropertyResolver
 

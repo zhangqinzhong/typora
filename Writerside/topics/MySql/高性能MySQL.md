@@ -2,7 +2,7 @@
 
 ![img](a762bd56e189af35e0cfd896a595efb1.png)
 
-<img src="../../images/MySql/images/image-20220928132911700.png" alt="image-20220928132911700" style="zoom:50%;" />
+<img src="image-20220928132911700.png" alt="image-20220928132911700" style="zoom:50%;" />
 
 #### 优化与执行
 
@@ -92,7 +92,7 @@ MySQL默认采用自动提交模式。也就是说如果不是显式的开启一
 SHOW VARIABLES LIKE 'AUTOCOMMIT';
 ```
 
-<img src="../../images/MySql/images/image-20220929133856025.png" alt="image-20220929133856025" style="zoom:50%;" />
+<img src="image-20220929133856025.png" alt="image-20220929133856025" style="zoom:50%;" />
 
 1或者ON表示启用。0或者OFF表示禁用。
 

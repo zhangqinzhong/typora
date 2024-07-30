@@ -75,7 +75,7 @@ XXL-JOB是一个轻量级分布式任务调度平台，其核心设计目标是�
 
 #### **架构图**
 
-<img src="../../images/xxl-job/images/架构图.png" style="zoom:50%;" />
+<img src="架构图.png" style="zoom:50%;" />
 
 ### **抛出疑问**
 
@@ -789,7 +789,7 @@ public interface ExecutorBiz {
 
 **总结**
 
-<img src="../../images/xxl-job/images/总结.png" style="zoom:50%;" />
+<img src="总结.png" style="zoom:50%;" />
 
 #### **学到了什么**
 

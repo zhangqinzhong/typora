@@ -8,8 +8,8 @@
         <download-title>INDEX</download-title>
         <showDownloadButton>true</showDownloadButton>
         <primary-color>strawberry</primary-color>
-        <header-logo>../images/the-book-svgrepo-com.svg</header-logo>
-        <custom-favicons>../images/the-book-svgrepo-com.svg</custom-favicons>
+        <header-logo>the-book-svgrepo-com.svg</header-logo>
+        <custom-favicons>the-book-svgrepo-com.svg</custom-favicons>
     </variables>
 
     <shortcuts>
@@ -30,7 +30,7 @@
 
     <build-profile instance="in">
         <variables>
-            <header-logo>../images/the-book-svgrepo-com.svg</header-logo>
+            <header-logo>the-book-svgrepo-com.svg</header-logo>
             <noindex-content>false</noindex-content>
             <product-web-url>https://zhangqinzhong.com/typora</product-web-url>
         </variables>
