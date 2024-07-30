@@ -8,15 +8,15 @@
         <download-title>INDEX</download-title>
         <showDownloadButton>true</showDownloadButton>
         <primary-color>strawberry</primary-color>
-        <header-logo>../images/electrocardiogram-svgrepo-com.svg</header-logo>
-        <custom-favicons>../images/electrocardiogram-svgrepo-com.svg</custom-favicons>
+        <header-logo>../images/the-book-svgrepo-com.svg</header-logo>
+        <custom-favicons>../images/the-book-svgrepo-com.svg</custom-favicons>
     </variables>
 
     <shortcuts>
         <src>keymap.xml</src>
         <layout name="Windows" display-name="Windows"/>
         <layout name="macOS" display-name="macOS"/>
-        <layout name="GNOME" display-name="Linux"/>
+        <layout name="Linux" display-name="Linux"/>
     </shortcuts>
 
     <footer>
@@ -30,7 +30,7 @@
 
     <build-profile instance="in">
         <variables>
-            <header-logo>../images/electrocardiogram-svgrepo-com.svg</header-logo>
+            <header-logo>../images/the-book-svgrepo-com.svg</header-logo>
             <noindex-content>false</noindex-content>
             <product-web-url>https://zhangqinzhong.com/typora</product-web-url>
         </variables>

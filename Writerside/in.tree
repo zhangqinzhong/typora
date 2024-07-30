@@ -7,12 +7,40 @@
 
     <toc-element topic="README.md"/>
 
-    <toc-element toc-title="github" id="github">
-        <toc-element topic="github的actions使用简介.md"/>
-    </toc-element>
-    <toc-element toc-title="SpringReactive">
-        <toc-element topic="函数式编程.md"/>
-        <toc-element topic="ReactiveStreams.md"/>
+    <toc-element toc-title="Java">
+        <toc-element toc-title="mathematics">
+            <toc-element topic="进制转换.md"/>
+        </toc-element>
+        <toc-element toc-title="ConcurrentProgramming">
+            <toc-element topic="final.md"/>
+            <toc-element topic="RandomAccess.md"/>
+            <toc-element topic="Synchronize.md"/>
+            <toc-element topic="ThreadLocal.md"/>
+            <toc-element topic="Volatile.md"/>
+            <toc-element topic="线程池.md"/>
+            <toc-element topic="缓存行伪共享.md"/>
+            <toc-element topic="锁.md"/>
+        </toc-element>
+        <toc-element toc-title="DataStructure">
+            <toc-element topic="递归思维：反转单链表.md"/>
+            <toc-element topic="tree.md"/>
+            <toc-element topic="算法分析.md"/>
+            <toc-element topic="数据结构和算法概述.md"/>
+            <toc-element topic="什么是算法.md"/>
+        </toc-element>
+        <toc-element toc-title="JavaCollection">
+            <toc-element topic="LinkedList.md"/>
+            <toc-element topic="HashMap.md"/>
+            <toc-element topic="ArraysList.md"/>
+            <toc-element topic="一致性Hash.md"/>
+        </toc-element>
+        <toc-element toc-title="JavaStream">
+            <toc-element topic="函数式编程.md"/>
+        </toc-element>
+        <toc-element toc-title="DesignPattern">
+            <toc-element topic="模板模式.md"/>
+            <toc-element topic="策略模式.md"/>
+        </toc-element>
     </toc-element>
     <toc-element toc-title="docker">
         <toc-element topic="Docker.md"/>
@@ -44,9 +72,7 @@
         <toc-element topic="jvm排查分析.md"/>
         <toc-element topic="java技术体系.md"/>
     </toc-element>
-    <toc-element toc-title="mathematics">
-        <toc-element topic="进制转换.md"/>
-    </toc-element>
+
     <toc-element toc-title="GoogleInternet">
         <toc-element topic="小恐龙.md"/>
     </toc-element>
@@ -59,23 +85,7 @@
             <toc-element topic="Elasticsearch简介.md"/>
         </toc-element>
     </toc-element>
-    <toc-element toc-title="ConcurrentProgramming">
-        <toc-element topic="final.md"/>
-        <toc-element topic="RandomAccess.md"/>
-        <toc-element topic="Synchronize.md"/>
-        <toc-element topic="ThreadLocal.md"/>
-        <toc-element topic="Volatile.md"/>
-        <toc-element topic="线程池.md"/>
-        <toc-element topic="缓存行伪共享.md"/>
-        <toc-element topic="锁.md"/>
-    </toc-element>
-    <toc-element toc-title="DataStructure">
-        <toc-element topic="递归思维：反转单链表.md"/>
-        <toc-element topic="tree.md"/>
-        <toc-element topic="算法分析.md"/>
-        <toc-element topic="数据结构和算法概述.md"/>
-        <toc-element topic="什么是算法.md"/>
-    </toc-element>
+
     <toc-element toc-title="mac">
         <toc-element topic="MacProxy.md"/>
         <toc-element topic="Mac软件.md"/>
@@ -112,40 +122,39 @@
         <toc-element topic="Mysql命令.md"/>
         <toc-element topic="AlibabaECS安装Mysql.md"/>
     </toc-element>
-    <toc-element toc-title="Spring-cloud-gateway">
-        <toc-element topic="Spring-cloud-gateway.md"/>
-    </toc-element>
     <toc-element toc-title="stress testing">
         <toc-element topic="压力测试.md"/>
-    </toc-element>
-    <toc-element toc-title="DesignPattern">
-        <toc-element topic="模板模式.md"/>
-        <toc-element topic="策略模式.md"/>
     </toc-element>
     <toc-element toc-title="windows">
         <toc-element topic="win10系统的idea的terminal终端对git出现中文乱码问题.md"/>
         <toc-element topic="Web唤起本地应用程序.md"/>
         <toc-element topic="windows7挂载linux目录.md"/>
     </toc-element>
-    <toc-element toc-title="JavaCollection">
-        <toc-element topic="LinkedList.md"/>
-        <toc-element topic="HashMap.md"/>
-        <toc-element topic="ArraysList.md"/>
-        <toc-element topic="一致性Hash.md"/>
-    </toc-element>
+
     <toc-element toc-title="Git">
         <toc-element topic="GIT stash.md"/>
         <toc-element topic="Git rebase.md"/>
         <toc-element topic="初始化git仓库.md"/>
+        <toc-element toc-title="github" id="github">
+            <toc-element topic="github的actions使用简介.md"/>
+        </toc-element>
     </toc-element>
     <toc-element toc-title="Spring">
-        <toc-element topic="BeanDefinitionReader.md"/>
-        <toc-element topic="Spring bean的理解随笔.md"/>
-        <toc-element topic="Spring IoC之ClassPathXmlApplicationContext.md"/>
-        <toc-element topic="spring boot 推断main方法.md"/>
-        <toc-element topic="Spring.md"/>
-        <toc-element topic="Spring IoC图形总结.md"/>
-        <toc-element topic="spring-BeanFactory入门.md"/>
+        <toc-element toc-title="spring">
+            <toc-element topic="BeanDefinitionReader.md"/>
+            <toc-element topic="Spring bean的理解随笔.md"/>
+            <toc-element topic="Spring IoC之ClassPathXmlApplicationContext.md"/>
+            <toc-element topic="spring boot 推断main方法.md"/>
+            <toc-element topic="Spring.md"/>
+            <toc-element topic="Spring IoC图形总结.md"/>
+            <toc-element topic="spring-BeanFactory入门.md"/>
+        </toc-element>
+        <toc-element toc-title="SpringReactive">
+            <toc-element topic="ReactiveStreams.md"/>
+        </toc-element>
+        <toc-element toc-title="Spring-cloud-gateway">
+            <toc-element topic="Spring-cloud-gateway.md"/>
+        </toc-element>
     </toc-element>
     <toc-element toc-title="阿里云组件">
         <toc-element topic="阿里云组件合集.md"/>
