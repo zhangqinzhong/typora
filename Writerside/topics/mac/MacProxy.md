@@ -32,7 +32,7 @@ Failed to connect to 127.0.0.1 port 7890: Connection refused
 brew config
 ```
 
-<img src="/Users/zhangqinzhong/Documents/typora/mac/images//image-20230418142237383.png" alt="image-20230418142237383" style="zoom:50%;" />
+<img src="image-20230418142237383.png" alt="image-20230418142237383" style="zoom:50%;" />
 
 可以看到all_proxy,http_proxy,https_proxy 都走的是7890，但是我系统设置里的proxy端口是63888，那肯定不通。
 

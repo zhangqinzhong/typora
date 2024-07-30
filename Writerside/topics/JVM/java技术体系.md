@@ -2,7 +2,7 @@
 
 ## Java技术体系 
 
-​		从广义上讲，Kotlin、Clojure、JRuby、Groovy等运行于Java虚拟机上的编程语言及其相关的程序都属于Java技术体系中的一员。如果仅从传统意义上来看，JCP官方[1]所定义的Java技术体系包括了以 下几个组成部分:
+		从广义上讲，Kotlin、Clojure、JRuby、Groovy等运行于Java虚拟机上的编程语言及其相关的程序都属于Java技术体系中的一员。如果仅从传统意义上来看，JCP官方[1]所定义的Java技术体系包括了以 下几个组成部分:
 
 *  Java程序设计语言
 * 各种硬件平台上的Java虚拟机实现
@@ -16,9 +16,9 @@
 
 * Java Card:支持Java小程序(Applets)运行在小内存设备(如智能卡)上的平台。
 
-* <img src="../../images/JVM/images/java技术体系所包括的内容.png" alt="java技术体系所包括的内容" style="zoom:50%;" />
+* <img src="java技术体系所包括的内容.png" alt="java技术体系所包括的内容" style="zoom:50%;" />
 
-  ​																图1-2 Java技术体系所包括的内容
+  																图1-2 Java技术体系所包括的内容
 
 * Java M E(M icro Edition):支持Java程序运行在移动终端(手机、PDA)上的平台，对Java API 有所精简，并加入了移动终端的针对性支持，这条产品线在JDK 6以前被称为J2ME。有一点读者请勿 混淆，现在在智能手机上非常流行的、主要使用Java语言开发程序的Android并不属于Java M E。
 

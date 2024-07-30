@@ -513,9 +513,3 @@ protected void loadBeanDefinitions(XmlBeanDefinitionReader reader) throws BeansE
 ### 总结
 
 **Spring 是一个轻量级的控制反转（IoC）和面向切面（AOP）的开源容器（框架）**。学习使用 Spring 很长一段时间了，关于 Spring 中比较重要的 IoC 功能终于结合代码分析了一遍。相关涉及到的分支比较多，一篇文章无法讲述完，后续我会将其中比较重要的知识点再拿出来单独解析一下。
-
-
-作者：hresh
-链接：https://juejin.cn/post/6844904039348437005
-来源：稀土掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

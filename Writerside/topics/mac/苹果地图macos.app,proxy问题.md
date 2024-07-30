@@ -14,7 +14,7 @@
 
 
 
-<img src="/Users/zhangqinzhong/Documents/typora/mac/images//image-20231101104742978.png" alt="image-20231101104742978" style="zoom:50%;" />
+<img src="image-20231101104742978.png" alt="image-20231101104742978" style="zoom:50%;" />
 
 保存配置好的配置文件。点击Clashx的重载配置文件。
 

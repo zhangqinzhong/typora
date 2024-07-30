@@ -24,11 +24,11 @@ mvn archetype:generate -DgroupId=com.laso.chip -DartifactId=laso_chip_manager -D
 
 
 
-## **Archetype介绍**
+## **Archetype介绍** {id="archetype_1"}
 
 Archetype 是一个 Maven 项目模板工具包。原型被定义为原始模式或模型，从中创建所有其他相同类型的东西。这些名称适合我们尝试提供一个系统，该系统提供生成Maven项目的一致方法。Archetype 将帮助作者为用户创建 Maven 项目模板，并为用户提供生成这些项目模板的参数化版本的方法。-- [摘自官网](https://maven.apache.org/archetype/index.html)
 
-## **Archetype创建**
+## **Archetype创建** {id="archetype_2"}
 
 接下来，我们创建一个我们自己的 archetype.
 
@@ -37,8 +37,41 @@ Archetype 是一个 Maven 项目模板工具包。原型被定义为原始模式
 这里需要引入 maven-archetype-plugin
 
 完整pom文件如下
+```xml
 
-<groupId>com.kevin</groupId>     <artifactId>kevin-test-demo</artifactId>     <packaging>pom</packaging>     <version>1.0-SNAPSHOT</version>     <organization>         <name>kevin-养码青年</name>         <url>https://www.cnblogs.com/zhenghengbin/</url>     </organization>     <properties>         <jdk.version>1.8</jdk.version>         <maven.archetype.version>3.0.1</maven.archetype.version>     </properties>     <dependencies>         <dependency>             <groupId>org.apache.maven.plugins</groupId>             <artifactId>maven-archetype-plugin</artifactId>             <version>${maven.archetype.version}</version>         </dependency>     </dependencies>     <build>         <plugins>             <plugin>                 <groupId>org.apache.maven.plugins</groupId>                 <artifactId>maven-compiler-plugin</artifactId>                 <configuration>                     <source>${jdk.version}</source>                     <target>${jdk.version}</target>                 </configuration>             </plugin>         </plugins>     </build> </project>
+<project>
+    <groupId>com.kevin</groupId>
+    <artifactId>kevin-test-demo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <jdk.version>1.8</jdk.version>
+        <maven.archetype.version>3.0.1</maven.archetype.version>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-archetype-plugin</artifactId>
+            <version>${maven.archetype.version}</version>
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+```
 
 ### **2、生成archetype**
 

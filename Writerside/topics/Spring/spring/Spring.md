@@ -4,11 +4,11 @@
 
 Spring是于2003年兴起的一个轻量级的Java开源框架，由Rod Johnson在其著作《Expert One-On-One J2EE Development and Design》中阐述的部分理念和原型衍生而来。Spring是为了解决企业应用开发的复杂性而创建的，它使用基本的JavaBean来完成以前只可能由EJB完成的事情。然而，Spring的用途不仅限于服务器端的开发。从简单性、可测试性和松耦合的角度而言，任何Java应用都可以从Spring中受益
 
-## Spring的整体架构
+## Spring的整体架构 {id="spring_1"}
 
 Spring框架是一个分层架构，它包含一系列的功能要素，并被分为大约20个模块，如图1-1所示。
 
-<img src="../../images/Spring/images/spring架构图.jpeg" alt="spring架构图" style="zoom:100%;" />
+<img src="spring架构图.jpeg" alt="spring架构图" style="zoom:100%;" />
 
 Spring官网中对IOC的定义。
 

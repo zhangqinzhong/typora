@@ -6,7 +6,7 @@
 >
 > 甚至堆我们也可以把它看成是一棵树，树的这么多种类中，我们最常见的应该是二叉树了，下面我们来看一下他的结构。
 
-<img src="../../images/DataStructure/images/树.png" alt="树" style="zoom:50%;" />
+<img src="树.png" alt="树" style="zoom:50%;" />
 
 ### 树的定义
 
@@ -30,7 +30,7 @@
 18. **满二叉树：**除最后一层无任何子节点外，每一层上的所有结点都有两个子结点的二叉树。
 19. **哈夫曼树：**带权路径最短的二叉树称为哈夫曼树或最优二叉树；
 
-<img src="../../images/DataStructure/images/二叉树.png" alt="二叉树" style="zoom:50%;" />
+<img src="二叉树.png" alt="二叉树" style="zoom:50%;" />
 
 #### 节点类（java）
 
@@ -64,7 +64,7 @@ public void preOrder(TreeNode tree) {
 >
 > 访问顺序如下
 
-<img src="../../images/DataStructure/images/二叉树前序遍历.png" alt="前序遍历" style="zoom:50%;" />
+<img src="二叉树前序遍历.png" alt="前序遍历" style="zoom:50%;" />
 
 #### 递归输出
 
@@ -109,7 +109,7 @@ public static void preOrder(TreeNode tree) {
 >
 > 访问顺序如下
 
-<img src="../../images/DataStructure/images/二叉树中序遍历.png" alt="二叉树中序遍历" style="zoom:50%;" />
+<img src="二叉树中序遍历.png" alt="二叉树中序遍历" style="zoom:50%;" />
 
 #### 递归输出
 
@@ -150,7 +150,7 @@ public static void inOrderTraversal(TreeNode tree) {
 >
 > 访问顺序如下
 
-<img src="../../images/DataStructure/images/二叉树后序遍历.png" alt="二叉树后序遍历" style="zoom:50%;" />
+<img src="二叉树后序遍历.png" alt="二叉树后序遍历" style="zoom:50%;" />
 
 #### 递归输出
 
