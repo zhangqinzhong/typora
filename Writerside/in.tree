@@ -121,6 +121,7 @@
         <toc-element topic="MySQL事务.md"/>
         <toc-element topic="Mysql命令.md"/>
         <toc-element topic="AlibabaECS安装Mysql.md"/>
+        <toc-element topic="Navicat破解.md"/>
     </toc-element>
     <toc-element toc-title="stress testing">
         <toc-element topic="压力测试.md"/>
@@ -164,5 +165,11 @@
     </toc-element>
     <toc-element toc-title="nginx">
         <toc-element topic="阿里云服务器安装nginx.md"/>
+    </toc-element>
+    <toc-element toc-title="MQ">
+        <toc-element topic="MQ.md"/>
+        <toc-element toc-title="RocketMQ">
+            <toc-element topic="RocketMQ事务消息.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>
