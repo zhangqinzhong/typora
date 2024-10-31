@@ -36,6 +36,7 @@
         </toc-element>
         <toc-element toc-title="JavaStream">
             <toc-element topic="函数式编程.md"/>
+            <toc-element topic="java中的双冒号访问.md"/>
         </toc-element>
         <toc-element toc-title="DesignPattern">
             <toc-element topic="模板模式.md"/>
