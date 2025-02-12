@@ -90,3 +90,8 @@ brew config
 ![image-20230419102054896](image-20230419102054896.png)
 
 搞定。
+
+还可以通过命令查询当前是否走了proxy
+```bash
+echo $https_proxy
+```
